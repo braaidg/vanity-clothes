@@ -2,7 +2,7 @@ import CATEGORIES_ACTIONS_TYPES from './category.types';
 
 import createAction from '../../utils/reducer/reducer.utils';
 
-const setCategoriesMap = (categoriesMap) =>
-  createAction(CATEGORIES_ACTIONS_TYPES.SET_CATEGORIES_MAP, categoriesMap);
+const setCategories = (categoriesArray) =>
+  createAction(CATEGORIES_ACTIONS_TYPES.SET_CATEGORIES, categoriesArray);
 
-export default setCategoriesMap;
+export default setCategories;
