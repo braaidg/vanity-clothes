@@ -1,0 +1,6 @@
+const CART_ACTION_TYPES = {
+  SET_CART_ITEMS: 'cart/SET_CART_ITEMS',
+  TOGGLE_CART_STATE: 'cart/TOGGLE_CART_STATE',
+};
+
+export default CART_ACTION_TYPES;
