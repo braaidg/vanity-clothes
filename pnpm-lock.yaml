@@ -20,6 +20,7 @@ specifiers:
   react-router-dom: '6'
   redux: ^4.2.0
   redux-logger: ^3.0.6
+  redux-persist: ^6.0.0
   reselect: ^4.1.7
   sass: ^1.55.0
   styled-components: ^5.3.6
@@ -34,6 +35,7 @@ dependencies:
   react-router-dom: 6.4.2_biqbaboplfbrettd7655fr4n2y
   redux: 4.2.0
   redux-logger: 3.0.6
+  redux-persist: 6.0.0_react@18.2.0+redux@4.2.0
   reselect: 4.1.7
   styled-components: 5.3.6_biqbaboplfbrettd7655fr4n2y
   vite-plugin-svgr: 2.2.2_vite@3.2.0
@@ -3041,6 +3043,19 @@ packages:
     resolution: {integrity: sha512-JoCIok7bg/XpqA1JqCqXFypuqBbQzGQySrhFzewB7ThcnysTO30l4VCst86AuB9T9tuT03MAA56Jw2PNhRSNCg==}
     dependencies:
       deep-diff: 0.3.8
+    dev: false
+
+  /redux-persist/6.0.0_react@18.2.0+redux@4.2.0:
+    resolution: {integrity: sha512-71LLMbUq2r02ng2We9S215LtPu3fY0KgaGE0k8WRgl6RkqxtGfl7HUozz1Dftwsb0D/5mZ8dwAaPbtnzfvbEwQ==}
+    peerDependencies:
+      react: '>=16'
+      redux: '>4.0.0'
+    peerDependenciesMeta:
+      react:
+        optional: true
+    dependencies:
+      react: 18.2.0
+      redux: 4.2.0
     dev: false
 
   /redux/4.2.0:
