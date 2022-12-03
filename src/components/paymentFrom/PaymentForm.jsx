@@ -29,7 +29,7 @@ function PaymentForm() {
     const response = await fetch(
       '/.netlify/functions/create-payment-intent/create-payment-intent.js',
       {
-        method: 'post',
+        method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
