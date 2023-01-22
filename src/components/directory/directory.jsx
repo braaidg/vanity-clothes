@@ -6,31 +6,36 @@ const categories = [
   {
     id: 1,
     title: 'hats',
-    imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+    imageUrl:
+      'https://res.cloudinary.com/ddr9q7fmr/image/upload/v1674419397/Vanity%20clothes/Directory/hats_tasdq4.png',
     route: 'shop/hats',
   },
   {
     id: 2,
     title: 'jackets',
-    imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+    imageUrl:
+      'https://res.cloudinary.com/ddr9q7fmr/image/upload/v1674419397/Vanity%20clothes/Directory/jackets_fdm605.png',
     route: 'shop/jackets',
   },
   {
     id: 3,
     title: 'sneakers',
-    imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+    imageUrl:
+      'https://res.cloudinary.com/ddr9q7fmr/image/upload/v1674419397/Vanity%20clothes/Directory/sneakers_qrpfx0.png',
     route: 'shop/sneakers',
   },
   {
     id: 4,
     title: 'womens',
-    imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+    imageUrl:
+      'https://res.cloudinary.com/ddr9q7fmr/image/upload/v1674419397/Vanity%20clothes/Directory/womens_m5oe0p.png',
     route: 'shop/womens',
   },
   {
     id: 5,
     title: 'mens',
-    imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+    imageUrl:
+      'https://res.cloudinary.com/ddr9q7fmr/image/upload/v1674419397/Vanity%20clothes/Directory/men_x6fvcq.png',
     route: 'shop/mens',
   },
 ];
