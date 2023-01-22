@@ -20,5 +20,6 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/prop-types': 'off',
     'default-param-last': 0,
+    allowExpressions: true,
   },
 };
